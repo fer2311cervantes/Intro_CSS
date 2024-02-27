@@ -13,7 +13,7 @@ p{
 }
 /*Todos los párrafos contenidos en #primero 
 color: #369;*/
-.parrafoEnPrimero{
+#primero p{
     color:#369;
 }
 /*Todos los enlaces de la página 
@@ -24,8 +24,9 @@ a{
 
 /*Los elementos <em> contenidos en #primero 
 color: #0000BB;
-background-color: #FFFFCC;*/
-#emPrimero{
+background-color: #FFFFCC;
+#primero>em solo funciona para hijos*/
+#primero em{
     color: #0000BB;
     background-color: #FFFFCC;
 }
@@ -41,6 +42,6 @@ background: #000000;*/
 /*Todos los elementos <span> contenidos en la clase "normal" 
 font-weight: bold;
 */ 
-span{
+.normal span{
     font-weight: bold;
 }
